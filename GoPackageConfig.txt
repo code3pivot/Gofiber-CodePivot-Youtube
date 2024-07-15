@@ -1,0 +1,37 @@
+go get github.com/gofiber/fiber/v2
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/postgres 
+go get github.com/dgrijalva/jwt-go
+go get github.com/go-playground/validator/v10
+go get golang.org/x/crypto/bcrypt
+go install github.com/air-verse/air@latest
+
+
+Script :-
+write a youtube script with time limit 3:50. timeline will  "
+Hey everyone, welcome to My youtube Channel Code Pivot! Today, we're diving into GoFiber, 
+a powerful web framework for building high-performance Go applications.
+
+Imagine developing web apps with ease, thanks to Go Fiber! Drawing from Node.js Express, it offers a sleek syntax for routing, 
+middleware, and HTTP operations.But what sets it apart? It's built on FAST HTTP, ensuring top-notch performance for high-volume, 
+low-latency applications. Plus, its rich ecosystem of middleware and plugins for logging, compression, authentication, 
+and CORS simplifies development, allowing you to focus on innovation.
+
+Ready to dive into Go Fiber? First, ensure you're equipped. You should be comfortable with Go's syntax, including functions, loops, and 
+conditionals, along with mastering error handling. Also, brush up on web development fundamentals like HTTP, REST APIs, and JSON 
+data exchange. Lastly, familiarize yourself with package management through go get. 
+With these basics under your belt, you're set to explore Go Fiber
+
+First we will initialize the folder using go mod in it Folder name in my case it is blog app go lang...
+ after initializing we will check in vs code for Go.Mod file if it is not present re initialize the folder. 
+ Now... head over to the Go Fiber website and install the go fiber package... Once installed, 
+ let's create our first endpoint to display a simple message
+
+  This parameter represents the context of the current HTTP request. 
+  It provides access to request information, headers, body, and functionalities for sending responses.
+
+
+The Email field is required to be a valid email address.
+The Password field is required to be at least 6 characters long.
+These validations ensure that our user data is consistent 
+and meets our application's standards before it's saved to the database. 
